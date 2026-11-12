@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}}</title>
+<meta name="description" content="{{desc}}">
+<link rel="canonical" href="{{url}}">
+<link rel="alternate" hreflang="en" href="{{site}}/">
+<link rel="alternate" hreflang="ar" href="{{site}}/ar/">
+<link rel="alternate" hreflang="x-default" href="{{site}}/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{url}}">
+<meta property="og:locale" content="{{locale}}">
+<meta property="og:locale:alternate" content="{{locale_alt}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{og_desc}}">
+<meta property="og:image" content="{{site}}/images/classroom-wide.jpg">
+<meta name="theme-color" content="#C8192E">
+<link rel="icon" type="image/png" href="{{p}}images/favicon.png">
+<link rel="apple-touch-icon" href="{{p}}images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap">
+<link rel="stylesheet" href="{{p}}css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Harvest Training & Education Center",
+  "alternateName": "مركز هارفست للتدريب والتعليم",
+  "url": "{{site}}/",
+  "logo": "{{site}}/images/logo.png",
+  "foundingDate": "1987",
+  "email": "info@harvestcourses.com",
+  "telephone": "+201026002033",
+  "address": { "@type": "PostalAddress", "addressLocality": "Mansoura", "addressRegion": "Dakahlia", "addressCountry": "EG" }
+}
+</script>
+</head>
+<body>
+<!--BODY-->
+<script>
+/* Apply the visitor's saved theme before the page paints */
+(function(){try{
+  var t=localStorage.getItem("harvest-theme");
+  if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t);
+}catch(e){}})();
+</script>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Harvest, home" data-ar-label="هارفست، الصفحة الرئيسية"><img src="{{p}}images/logo.png" alt="Harvest" width="560" height="160"></a>
+    <nav class="nav" id="nav" aria-label="Main" data-ar-label="التنقل الرئيسي">
+      <a href="#about" data-ar="من نحن">About</a>
+      <a href="#programs" data-ar="البرامج">Programs</a>
+      <a href="#why" data-ar="لماذا هارفست">Why Harvest</a>
+      <a href="#accreditation" data-ar="الاعتمادات">Accreditation</a>
+      <a href="#clients" data-ar="عملاؤنا">Clients</a>
+      <a class="btn" href="#contact" data-ar="تواصل معنا">Contact us</a>
+    </nav>
+    <div class="tools">
+      <a class="tool" id="lang-toggle" href="{{other_href}}" lang="{{other_lang}}" hreflang="{{other_lang}}">{{other_label}}</a>
+      <button class="tool" id="theme-toggle" type="button">{{theme_label}}</button>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Menu" data-ar-label="القائمة" aria-expanded="false" aria-controls="nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <h1 data-ar="تدريب يبني كفاءات حقيقية منذ 1987">Training that builds real skills since 1987</h1>
+        <p data-ar="دورات لغات وحاسب آلي وبرامج إدارية للأفراد، وحلول تدريبية تُصمَّم خصيصاً لكل مؤسسة.">Language, computer and management courses for individuals, and training programs designed around each organisation.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#programs" data-ar="تصفّح البرامج">Browse programs</a>
+          <a class="btn btn--ghost" href="#contact" data-ar="اطلب عرضاً لمؤسستك">Request a proposal</a>
+        </div>
+        <p class="licence" data-ar="مرخّص من وزارة التربية والتعليم ومعتمد من ITIDA">Licensed by the Ministry of Education and accredited by ITIDA</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="chip chip--a"></span>
+        <div class="diamond"><img src="{{p}}images/classroom.jpg" alt="" width="900" height="1242"></div>
+        <span class="chip chip--b"></span>
+        <span class="chip chip--c"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts" aria-label="Harvest in numbers" data-ar-label="هارفست في أرقام">
+    <div class="wrap">
+      <ul>
+        <li><strong>1987</strong><span data-ar="سنة التأسيس">Year founded</span></li>
+        <li><strong>35+</strong><span data-ar="عاماً في تطوير رأس المال البشري">Years developing people</span></li>
+        <li><strong>5</strong><span data-ar="جهات اعتماد رسمية">Official accrediting bodies</span></li>
+        <li><strong>3</strong><span data-ar="أنواع من الشهادات: دولية ومعتمدة ومحلية">Certificate types: international, accredited and local</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" id="about">
+    <div class="wrap about">
+      <div>
+        <div class="year">1987</div>
+        <p class="year-note" data-ar="بدأنا في مصر، وما زلنا ندرّب أكبر كياناتها.">We started in Egypt, and we still train its largest institutions.</p>
+      </div>
+      <div class="about-text">
+        <h2 data-ar="مركز التدريب والتطوير المهني الرائد">A leading center for training and professional development</h2>
+        <p data-ar="منذ عام 1987 وهارفست قوة دافعة وراء التطور المهني في أكبر الكيانات المصرية والعربية. أكثر من ثلاثة عقود من الالتزام بتمكين الأفراد والمؤسسات بحلول تدريبية مبتكرة، مصمَّمة لمواجهة تحديات المستقبل.">Since 1987, Harvest has driven professional development inside some of the largest Egyptian and Arab organisations. For more than three decades we have equipped people and institutions with training built for the challenges ahead.</p>
+        <p data-ar="لا نقدّم تدريباً جاهزاً. نبني لكل شريك برنامجاً يناسب ظروفه وطبيعة عمله، ليصل قادته وفرق عمله إلى أقصى إمكاناتهم.">We do not sell off-the-shelf training. We build each partner a program that fits its circumstances and its work, so leaders and teams reach their full potential.</p>
+        <div class="pair">
+          <div>
+            <h3 data-ar="رؤيتنا">Our vision</h3>
+            <p data-ar="أن نكون الشريك الاستراتيجي المفضّل والوجهة الرائدة في التدريب والتطوير المهني، محلياً وإقليمياً.">To be the preferred strategic partner and the leading destination for training and professional development, locally and regionally.</p>
+          </div>
+          <div>
+            <h3 data-ar="رسالتنا">Our mission</h3>
+            <p data-ar="حلول تدريبية متكاملة بمعايير عالمية، يقدّمها نخبة من الخبراء في بيئة تعليمية تكنولوجية متطورة وداعمة.">Complete training solutions to international standards, delivered by expert trainers in a modern, supportive, technology-rich learning environment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--mist" id="programs">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-ar="برامجنا التدريبية">Our training programs</h2>
+        <p data-ar="أربعة مسارات للأفراد والمؤسسات. اختر المسار واسأل عن المواعيد والأسعار.">Four tracks for individuals and organisations. Pick a track and ask about dates and prices.</p>
+      </div>
+      <div class="tracks">
+        <article class="track">
+          <h3 data-ar="اللغات">Languages</h3>
+          <div class="track-body">
+            <p data-ar="لغة إنجليزية لكل المستويات من التأسيس حتى المحادثة، وإنجليزية متخصصة لمجال عملك.">English at every level, from foundation to conversation, plus English tailored to your field of work.</p>
+            <ul class="tags">
+              <li data-ar="الإنجليزية العامة">General English</li><li>Business English</li><li data-ar="إنجليزية لعلوم الحاسب">English for computer science</li><li data-ar="الفرنسية">French</li><li data-ar="الألمانية">German</li>
+            </ul>
+          </div>
+          <a class="btn btn--ghost" href="#contact" data-interest="Language courses" data-ar="اسأل عن الدورة">Ask about this course</a>
+        </article>
+        <article class="track">
+          <h3 data-ar="الحاسب الآلي والمهارات الرقمية">Computer and digital skills</h3>
+          <div class="track-body">
+            <p data-ar="شهادات دولية في مهارات الحاسب، مع تطبيق عملي كامل ومدرّبين ومهندسين من مجالات التحول الرقمي.">International computer-skills certificates, taught hands-on by trainers and engineers who work in digital transformation.</p>
+            <ul class="tags">
+              <li>ICDL</li><li>IC3</li><li>Microsoft Office Specialist</li><li data-ar="مهارات رقمية">Digital skills</li>
+            </ul>
+          </div>
+          <a class="btn btn--ghost" href="#contact" data-interest="Computer courses" data-ar="اسأل عن الدورة">Ask about this course</a>
+        </article>
+        <article class="track">
+          <h3 data-ar="البرامج الإدارية">Management programs</h3>
+          <div class="track-body">
+            <p data-ar="برامج تنمية إدارية ومهنية تؤهّل لسوق العمل وترفع أداء الفرق.">Management and professional programs that prepare people for the job market and lift team performance.</p>
+            <ul class="tags">
+              <li data-ar="إدارة الأعمال">Business administration</li><li data-ar="المبيعات وخدمة العملاء">Sales and customer service</li><li data-ar="التسويق الإلكتروني">Digital marketing</li><li data-ar="الشؤون المالية والإدارية">Finance and administration</li><li data-ar="التأهيل لسوق العمل">Job-market readiness</li>
+            </ul>
+          </div>
+          <a class="btn btn--ghost" href="#contact" data-interest="Management programs" data-ar="اسأل عن الدورة">Ask about this course</a>
+        </article>
+        <article class="track">
+          <h3 data-ar="تدريب المؤسسات">Corporate training</h3>
+          <div class="track-body">
+            <p data-ar="ندرس احتياج مؤسستك ثم نصمّم البرنامج: المحتوى، وعدد الساعات، ومكان التنفيذ في مقرّكم أو قاعاتنا أو عن بُعد.">We study what your organisation needs, then design the program: content, hours, and delivery at your premises, in our rooms or online.</p>
+            <ul class="tags">
+              <li data-ar="برامج مخصّصة">Custom programs</li><li data-ar="استشارات تدريبية">Training consultancy</li><li data-ar="تدريب في المحافظات">Training across governorates</li><li data-ar="تعلّم عن بُعد">Remote learning</li>
+            </ul>
+          </div>
+          <a class="btn" href="#contact" data-interest="Corporate training" data-ar="اطلب عرضاً">Request a proposal</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="why">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-ar="لماذا يختارنا المتدربون والمؤسسات">Why trainees and organisations choose us</h2>
+      </div>
+      <ul class="reasons">
+        <li><div><h3 data-ar="انتشار داخل مصر">Reach across Egypt</h3><p data-ar="توزيع جغرافي واسع يسهّل الوصول إلى شركائنا وعملائنا في المحافظات.">Wide geographic coverage, so partners and clients in the governorates can reach us easily.</p></div></li>
+        <li><div><h3 data-ar="مدرّبون ذوو خبرة">Experienced trainers</h3><p data-ar="مدرّبون ومهندسون متخصصون في مجالات التحول الرقمي.">Trainers and engineers who specialise in digital transformation.</p></div></li>
+        <li><div><h3 data-ar="تطبيق عملي شامل">Hands-on practice</h3><p data-ar="ورش عمل ومشروعات تدريبية في كل برنامج.">Workshops and training projects in every program.</p></div></li>
+        <li><div><h3 data-ar="محتوى علمي متطور">Up-to-date content</h3><p data-ar="مادة علمية محدَّثة ومتاحة للمتدرب إلكترونياً.">Current course material, available to trainees online.</p></div></li>
+        <li><div><h3 data-ar="أحدث البرامج التدريبية">The latest programs</h3><p data-ar="نحدّث برامجنا باستمرار لتواكب سوق العمل.">We keep updating our programs to match the job market.</p></div></li>
+        <li><div><h3 data-ar="التزام بالساعات والمحتوى">Hours and content honoured</h3><p data-ar="يلتزم المدرّبون بالمحتوى المتفق عليه وعدد الساعات كاملاً.">Trainers deliver the agreed content and the full number of hours.</p></div></li>
+        <li><div><h3 data-ar="تعلّم عن بُعد">Remote learning</h3><p data-ar="فرص تعلّم مستمرة دون قيود زمان أو مكان.">Keep learning without limits of time or place.</p></div></li>
+        <li><div><h3 data-ar="قاعات مجهّزة">Equipped rooms</h3><p data-ar="قاعات تدريب بأفضل وسائل العرض الحديثة.">Training rooms fitted with modern presentation equipment.</p></div></li>
+        <li><div><h3 data-ar="شهادات لها قيمة">Certificates that count</h3><p data-ar="شهادات معتمدة دولياً ومحلياً تضيف إلى سيرتك المهنية.">Internationally and locally accredited certificates that strengthen your CV.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band--crimson on-dark" id="accreditation">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-ar="جهات الاعتماد">Accreditation</h2>
+        <p data-ar="هارفست مركز تدريب مرخّص من وزارة التربية والتعليم في اللغات والحاسب الآلي والبرامج الإدارية.">Harvest is licensed by the Ministry of Education as a training center for languages, computing and management programs.</p>
+      </div>
+      <div class="accred">
+        <ul class="bodies">
+          <li data-ar="وزارة التربية والتعليم المصرية">Egyptian Ministry of Education</li>
+          <li data-ar="ITIDA التابعة لوزارة الاتصالات وتكنولوجيا المعلومات">ITIDA, Ministry of Communications and Information Technology</li>
+          <li data-ar="الجهاز الإداري للدولة المصرية">The Egyptian State Administrative Authority</li>
+          <li data-ar="هيئة تحديث الصناعة IMC">Industrial Modernisation Centre (IMC)</li>
+          <li data-ar="مركز التدريب الصناعي ITC">Industrial Training Council (ITC)</li>
+        </ul>
+        <div>
+          <h3 class="certs-title" data-ar="الشهادات التي يمنحها المركز">Certificates we award</h3>
+          <div class="certs">
+            <div><h3 data-ar="شهادات دولية">International certificates</h3><p data-ar="شهادة من الأكاديمية الدولية الأمريكية.">A certificate from the American International Academy.</p></div>
+            <div><h3 data-ar="شهادات معتمدة">Accredited certificates</h3><p data-ar="من وزارة التربية والتعليم المصرية.">From the Egyptian Ministry of Education.</p></div>
+            <div><h3 data-ar="شهادات محلية">Local certificates</h3><p data-ar="صادرة عن المركز وموقَّعة من مدير التدريب، تثبت اجتياز المتدرب للدورة بنجاح.">Issued by the center and signed by the training director, confirming the trainee completed the course.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <img src="{{p}}images/partners.jpg" alt="Harvest partners: American International Academy, ITC, Pearson VUE, IMC, ITIDA, Ministry of Education, General Authority for Roads and Bridges, Petrobel, Faisal Islamic Bank, GASCO, General Authority for Investment" data-ar-alt="شركاء هارفست: الأكاديمية الدولية الأمريكية، ITC، Pearson VUE، IMC، ITIDA، وزارة التربية والتعليم، الهيئة العامة للطرق والكباري، بتروبل، بنك فيصل الإسلامي، جاسكو، الهيئة العامة للاستثمار" width="1310" height="839">
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="clients">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-ar="جهات درّبناها">Organisations we have trained</h2>
+        <p data-ar="خلال أكثر من 35 عاماً درّب المركز جهات حكومية وشركات ومؤسسات تعليمية ومنظمات دولية.">Over more than 35 years the center has trained government bodies, companies, educational institutions and international organisations.</p>
+      </div>
+      <div class="tabs" id="tabs" role="tablist" aria-label="Sectors" data-ar-label="القطاعات" hidden>
+        <button class="tab" type="button" role="tab" id="tab-gov" aria-controls="panel-gov" data-ar="الجهات الحكومية">Government</button>
+        <button class="tab" type="button" role="tab" id="tab-init" aria-controls="panel-init" data-ar="المبادرات الرئاسية">Presidential initiatives</button>
+        <button class="tab" type="button" role="tab" id="tab-co" aria-controls="panel-co" data-ar="الشركات">Companies</button>
+        <button class="tab" type="button" role="tab" id="tab-edu" aria-controls="panel-edu" data-ar="التعليم والبحث">Education and research</button>
+        <button class="tab" type="button" role="tab" id="tab-ngo" aria-controls="panel-ngo" data-ar="المنظمات الدولية">International organisations</button>
+      </div>
+      <div class="panel" id="panel-gov" role="tabpanel" aria-labelledby="tab-gov">
+        <h3 data-ar="الهيئات والمؤسسات الحكومية">Government bodies and authorities</h3>
+        <ul class="client-list">
+          <li data-ar="الهيئة القومية للبريد المصري">Egypt Post</li>
+          <li data-ar="وزارة الاتصالات وتكنولوجيا المعلومات">Ministry of Communications and Information Technology</li>
+          <li data-ar="مصلحة ضرائب المبيعات بالقاهرة والجيزة">Sales Tax Authority, Cairo and Giza</li>
+          <li data-ar="الهيئة العامة للاستثمار">General Authority for Investment</li>
+          <li data-ar="الهيئة المصرية للاتصالات">Telecom Egypt</li>
+          <li data-ar="هيئة كهرباء توزيع شمال الدلتا">North Delta Electricity Distribution</li>
+          <li data-ar="محطة توليد كهرباء طلخا">Talkha Power Station</li>
+          <li data-ar="مصلحة الرقابة الصناعية بالدلتا والوجه القبلي">Industrial Control Authority, Delta and Upper Egypt</li>
+          <li data-ar="وزارة الري بمحطاتها في المحافظات">Ministry of Irrigation and its stations in the governorates</li>
+          <li data-ar="الهيئة العامة للطرق والكباري والنقل البري">General Authority for Roads, Bridges and Land Transport</li>
+          <li data-ar="جمارك دبي">Dubai Customs</li>
+          <li data-ar="جمارك الشارقة">Sharjah Customs</li>
+          <li data-ar="جمارك أبو ظبي">Abu Dhabi Customs</li>
+          <li data-ar="الإدارة العامة للإقامة وشؤون الأجانب">General Directorate of Residency and Foreigners Affairs</li>
+        </ul>
+      </div>
+      <div class="panel" id="panel-init" role="tabpanel" aria-labelledby="tab-init">
+        <h3 data-ar="المبادرات الرئاسية والتنموية">Presidential and development initiatives</h3>
+        <ul class="client-list">
+          <li data-ar="المبادرة الرئاسية «حياة كريمة»">The presidential initiative Haya Karima (Decent Life)</li>
+          <li data-ar="مبادرة «رواد مصر الرقمية» مع وزارة الاتصالات">Digital Egypt Pioneers, with the Ministry of Communications</li>
+          <li data-ar="«حياة كريمة»: لغة إنجليزية متخصصة في علوم الحاسب">Haya Karima: specialised English for computer science</li>
+        </ul>
+      </div>
+      <div class="panel" id="panel-co" role="tabpanel" aria-labelledby="tab-co">
+        <h3 data-ar="الشركات والمؤسسات الخاصة">Companies and private institutions</h3>
+        <ul class="client-list">
+          <li data-ar="شركة المقاولات المصرية (مختار إبراهيم سابقاً)">Egyptian Contracting Company (formerly Mokhtar Ibrahim)</li>
+          <li data-ar="كوكاكولا مصر بجميع فروعها">Coca-Cola Egypt, all branches</li>
+          <li data-ar="ميرسك الملاحية ببورسعيد">Maersk Shipping, Port Said</li>
+          <li data-ar="ريدمار الملاحية ببورسعيد">Redmar Shipping, Port Said</li>
+          <li data-ar="شركة الحاويات بدمياط وبورسعيد">Container Handling Company, Damietta and Port Said</li>
+          <li data-ar="النصر للأسمدة والصناعات الكيماوية بالدقهلية">El Nasr Fertilizers and Chemical Industries, Dakahlia</li>
+          <li data-ar="النصر لصناعات الخشب الحبيبي والراتنجات">El Nasr Particle Board and Resins</li>
+          <li data-ar="ميديترانيو للصناعات الغذائية">Mediterraneo Food Industries</li>
+          <li data-ar="Cairo A3 للشحن والتفريغ">Cairo A3 Stevedoring</li>
+          <li data-ar="المتحدة للتكييفات">United Air Conditioning</li>
+          <li data-ar="ليفر إيجبت">Lever Egypt</li>
+        </ul>
+      </div>
+      <div class="panel" id="panel-edu" role="tabpanel" aria-labelledby="tab-edu">
+        <h3 data-ar="المؤسسات التعليمية والبحثية">Educational and research institutions</h3>
+        <ul class="client-list">
+          <li data-ar="مركز الحاسب العلمي بجامعة المنصورة">Scientific Computing Center, Mansoura University</li>
+          <li data-ar="كلية البنات، جامعة عين شمس">Faculty of Women, Ain Shams University</li>
+          <li data-ar="كلية التربية النوعية، جامعة المنصورة">Faculty of Specific Education, Mansoura University</li>
+          <li data-ar="معهد التمريض بمدينة شربين">Nursing Institute, Sherbin</li>
+          <li data-ar="الحجر الصحي الزراعي بميناء دمياط">Agricultural Quarantine, Damietta Port</li>
+        </ul>
+      </div>
+      <div class="panel" id="panel-ngo" role="tabpanel" aria-labelledby="tab-ngo">
+        <h3 data-ar="المنظمات والجمعيات الدولية">International organisations and associations</h3>
+        <ul class="client-list">
+          <li data-ar="المفوضية السامية للأمم المتحدة لشؤون اللاجئين">UNHCR, the UN Refugee Agency</li>
+          <li data-ar="هيئة بلان إنترناشونال مصر">Plan International Egypt</li>
+          <li data-ar="جمعية كاريتاس مصر">Caritas Egypt</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--mist" id="values">
+    <div class="wrap">
+      <div class="head">
+        <h2 data-ar="قيم نعمل بها">Values we work by</h2>
+      </div>
+      <ul class="values">
+        <li><h3 data-ar="الابتكار والتطوير">Innovation</h3><p data-ar="نتبنّى أحدث المناهج والتقنيات التدريبية ونطوّرها باستمرار.">We adopt the latest training methods and technology, and keep improving them.</p></li>
+        <li><h3 data-ar="التميّز والجودة">Quality</h3><p data-ar="معايير جودة عالمية في تصميم وتقديم كل برنامج.">International quality standards in how every program is designed and delivered.</p></li>
+        <li><h3 data-ar="التمكين والإلهام">Empowerment</h3><p data-ar="لا ننقل المعرفة فقط، بل نحفّز المتدرب على النمو المهني المستمر.">We pass on knowledge and also motivate trainees to keep growing professionally.</p></li>
+        <li><h3 data-ar="الشراكة والتعاون">Partnership</h3><p data-ar="نعمل يداً بيد مع عملائنا ونستمع لاحتياجاتهم قبل أن نقترح.">We work side by side with clients and listen to their needs before we propose anything.</p></li>
+        <li><h3 data-ar="التخصيص المرن">Flexibility</h3><p data-ar="لكل شريك احتياجاته، ولكل شريك برنامج مصمَّم له.">Every partner has different needs, so every partner gets a program designed for them.</p></li>
+        <li><h3 data-ar="المسؤولية المجتمعية">Social responsibility</h3><p data-ar="ندعم المبادرات التي تعزّز التعليم وتترك أثراً مستداماً في المجتمع.">We support initiatives that advance education and leave a lasting effect on the community.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band--ink on-dark" id="contact">
+    <div class="wrap contact">
+      <div>
+        <h2 data-ar="لنتحدث عن تدريبك القادم">Let's talk about your next training</h2>
+        <p class="contact-lead" data-ar="سواء كنت تبحث عن دورة لنفسك أو برنامج لفريق عملك، راسلنا ونرد عليك بالتفاصيل والمواعيد.">Whether you want a course for yourself or a program for your team, message us and we will reply with details and dates.</p>
+        <dl class="reach">
+          <div><dt data-ar="الهاتف وواتساب">Phone and WhatsApp</dt><dd><a class="ltr" href="tel:+201026002033">+20 10 26002033</a></dd></div>
+          <div><dt data-ar="البريد الإلكتروني">Email</dt><dd><a class="ltr" href="mailto:info@harvestcourses.com">info@harvestcourses.com</a></dd></div>
+          <div><dt data-ar="العنوان">Address</dt><dd data-ar="المنصورة، برج الجامعة، شارع الجلاء">University Tower, El-Galaa Street, Mansoura</dd></div>
+        </dl>
+      </div>
+      <form class="form" id="enquiry" novalidate>
+        <h3 data-ar="أرسل استفسارك">Send your enquiry</h3>
+        <div class="field"><label for="f-name" data-ar="الاسم">Name</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="f-phone" data-ar="رقم الهاتف">Phone number</label><input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" required></div>
+        <div class="field"><label for="f-interest" data-ar="مهتم بـ">Interested in</label>
+          <select id="f-interest" name="interest">
+            <option value="Language courses" data-ar="دورات اللغات">Language courses</option>
+            <option value="Computer courses" data-ar="دورات الحاسب الآلي">Computer courses</option>
+            <option value="Management programs" data-ar="البرامج الإدارية">Management programs</option>
+            <option value="Corporate training" data-ar="تدريب لمؤسسة">Corporate training</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-msg" data-ar="رسالتك (اختياري)">Your message (optional)</label><textarea id="f-msg" name="message"></textarea></div>
+        <p class="form-error" id="f-error" role="alert" hidden></p>
+        <button class="btn" type="submit" data-ar="أكمل الإرسال عبر واتساب">Continue in WhatsApp</button>
+        <p class="form-note" data-ar="يفتح الزر تطبيق واتساب ورسالتك مكتوبة، ثم تضغط إرسال هناك.">The button opens WhatsApp with your message written out. Press send there.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <img src="{{p}}images/logo-white.png" alt="Harvest" width="560" height="160">
+    <p>© <span id="year-now">2026</span> <span data-ar="مركز هارفست للتدريب والتعليم. جميع الحقوق محفوظة.">Harvest Training &amp; Education Center. All rights reserved.</span></p>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/201026002033" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" data-ar-label="تواصل عبر واتساب">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.200a8.200 8.200 0 0 1-4.200-1.200l-.3-.2-3 .8.8-2.900-.2-.3A8.200 8.200 0 1 1 12 20.200zm4.500-6.100c-.2-.1-1.500-.7-1.700-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.700 6.700 0 0 1-3.300-2.900c-.3-.4.2-.4.7-1.300.1-.2 0-.3 0-.5l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.900 2.900 0 0 0-.9 2.200 5 5 0 0 0 1.100 2.700 11.500 11.500 0 0 0 4.400 3.900c1.600.7 2.300.8 3.100.6a2.600 2.600 0 0 0 1.700-1.200 2.100 2.100 0 0 0 .2-1.200c-.1-.1-.3-.2-.5-.3z"/></svg>
+  <span data-ar="واتساب">WhatsApp</span>
+</a>
+<!--/BODY-->
+<script src="{{p}}js/main.js"></script>
+</body>
+</html>

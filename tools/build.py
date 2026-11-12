@@ -2,8 +2,9 @@
 The template holds English text; each translatable element carries its Arabic in data-ar."""
 import re, sys, os
 SRC = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(SRC, '..', 'harvest-site')
-SITE = 'https://harvestcenter10-ops.github.io/harvest'
+OUT = os.environ.get('OUT', os.path.join(SRC, '..'))
+# Public address of the site, no trailing slash. Change it here when the domain changes.
+SITE = os.environ.get('SITE', 'https://elsherbini26.github.io/harvest')
 T = open(os.path.join(SRC, 'template.html'), encoding='utf-8').read()
 
 PAGES = {
